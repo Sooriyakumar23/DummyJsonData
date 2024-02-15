@@ -27,11 +27,14 @@
           "LARGE": 400
       },
       "VANILLA": {
-          "SMALL" : 401
+          "LARGE": 401,
+          "MEDIUM" : 402,
       },
       "STRAWBERRY": {
-          "LARGE": 402,
-          "SMALL" : 403
+          "LARGE": 403,
+          "MEDIUM" : 404,
+          "SMALL" : 405,
+          "X-SMALL" : 406
       }
   }
 }
