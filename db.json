@@ -1,14 +1,37 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "no_variant_no_option": {
+      "DEF": {
+          "DEF": 100
+      }
+  },
+  "variant_only": {
+      "CHOCOLATE": {
+          "DEF": 200
+      }, 
+      "VANILLA": {
+          "DEF": 201
+      }, 
+      "STRAWBERRY": {
+          "DEF": 202
+      }
+  },
+  "option_only": {
+      "DEF": {
+          "LARGE": 300,
+          "MEDIUM" : 301,
+          "SMALL" : 302
+      }
+  },
+  "variant_and_option": {
+      "CHOCOLATE": {
+          "LARGE": 400
+      },
+      "VANILLA": {
+          "SMALL" : 401
+      },
+      "STRAWBERRY": {
+          "LARGE": 402,
+          "SMALL" : 403
+      }
   }
 }
