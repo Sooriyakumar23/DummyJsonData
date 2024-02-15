@@ -1,33 +1,14 @@
 {
-  "_id": {
-    "$numberLong": "1701840551480"
-  },
-  "vendor": {
-    "$ref": "c_vendor",
-    "$id": {
-      "$numberLong": "1701758266645"
-    }
-  },
-  "itemName": "Eggy briyaani",
-  "description": "Egg Briyaani is a delicious and savory food variation that slightly tangy flavor to the overall taste.",
-  "itemSizeWisePrice": {
-    "FULL": 1001,
-    "NORMAL": 601
-  },
-  "itemImage": {
-    "$binary": {
-      "subType": "00"
-    }
-  },
-  "itemType": "NON_VEG",
-  "itemStatus": "DELETED",
-  "ratingCounts": 0,
-  "ratingSum": 0,
-  "createdAt": {
-    "$date": "2023-12-06T05:29:11.479Z"
-  },
-  "lastModifiedAt": {
-    "$date": "2023-12-06T07:34:50.769Z"
-  },
-  "_class": "io.feasto.vendor_service.Entity.Item"
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
