@@ -1,4 +1,4 @@
-[{
+{
   "_id": {
     "$numberLong": "1701840551480"
   },
@@ -31,4 +31,3 @@
   },
   "_class": "io.feasto.vendor_service.Entity.Item"
 }
-]
